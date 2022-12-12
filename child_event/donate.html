@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<!-- Required meta tags -->
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+
+
+<!-- Bootstrap CSS -->
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+
+
+<!--fontawesome-->
+
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+
+<title>Responsive nav bar with Bootstrap 4</title>
+
+</head>
+
+<style>
+    .collapse{
+            margin-left: 40%;
+        }
+
+        .about{
+            margin-top: 3%;
+            background-color:whitesmoke;
+            padding-left: 5%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+        }
+
+        h1{
+            margin-top: 2%;
+            color: red;
+            text-align: center;
+        }
+
+        .para{
+            font-size: x-large;
+            margin-left:20%;
+            margin-right: 20%;
+            margin-top: 2%;
+        }
+
+        .container{
+            background-color: rgb(238, 235, 235);
+            padding-top: 2%;
+            
+        }
+        .img{
+            margin-left: 5%; 
+            margin-right: 5%;
+            display: flex;
+            background-color: aliceblue;
+            margin-top: 5%;
+        }
+        .form{
+            margin-left: 5%; 
+            margin-right: 5%;
+            background-color: white;
+            padding: 5%;
+        }
+
+        .form p{
+            font-weight: bold;
+        }
+        
+        .img p{
+            font-size: x-large;
+            margin-top: 10%;
+            margin-left: 5%;
+           
+            font-weight: bold;
+            
+        } 
+        .red{
+            color: red;
+            font-weight: bold;
+            margin-left: 25%;
+        }
+        
+           .x{
+            font-weight:bold;
+            margin-left: 2%;
+                   }
+
+            
+        
+</style>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-dark fixed-top">
+
+        <a class="navbar-brand"></a>
+
+        <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+
+            <ul class="navbar-nav">
+
+                <li class="nav-item">
+
+                    <a class="nav-link text-light font-weight-bold px-3" href="home.html">HOME</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link text-light font-weight-bold px-3" href="about.html">ABOUT</a>
+
+                </li>
+                <li class="nav-item">
+
+                    <a class="nav-link text-light font-weight-bold px-3" href="celebrate.html">HOW TO CELEBRATE</a>
+
+                </li>
+                <li class="nav-item">
+
+                    <a class="nav-link text-light font-weight-bold px-3" href="event.html">EVENTS</a>
+
+                </li>
+                <li class="nav-item">
+
+                    <a class="nav-link text-light font-weight-bold px-3" href="donate.html">DONATE</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link text-light font-weight-bold px-3" href="blog.html">BLOG</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link text-light font-weight-bold px-3" href="contact.html">CONTACT</a>
+
+                </li>
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="about">
+        <br>
+        <h2>DONATE</h2>
+    </div>
+
+    <div class="para">
+        <h1>Donate today to National Child Day!</h1>
+    </div>
+
+    <div class="para">
+        <p>Proceeds support programs to empower children and youth from coast to coast to coast, promote the rights of children in India, and advocate for better laws and programs to enable every child to achieve their full potential!</p>
+    </div>
+
+     <div class="container">
+        <div class="img">
+            <img src="donte1.jpg" height="300" width="500">
+            <p>Together we can make India the best place in the world for kids to grow up!</p>
+        </div>
+        <br>
+       <p class="red">DONATION DETAILS</p>
+
+       <div class="form">
+        <p>DONATION AMOUNT</p>
+        <div class="input">
+        <input type="text" placeholder="Enter Donation Amount"><br><br>
+        <input type="text" placeholder="Write a message to us" size="50">
+        </div>
+       </div>
+       <br><br>
+       <p class="red">DONOR & TAX RECEIPT INFORMATION</p>
+       <div class="form">
+        
+        <div class="input">
+        <input type="email" placeholder="Enter Email address" required><br><br>
+        <input type="text" placeholder="Enter First Name" required>
+        <input type="text" placeholder="Enter Last Name" required><br><br>
+        <input type="text" placeholder=" Enter Adress" size="50" required><br><br>
+        <input type="text" placeholder="Adress (optional)"><br><br>
+        <input type="text" placeholder=" Enetr  your city" required><br><br>
+
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1"> Yes,I would like to Email communications from children first India </label><br>
+
+        </div>
+       </div>
+        <br>
+       <p class="red"> PAYMENT INFORMATION</p>
+
+       <div class="form">
+        
+        <p class="x">SECURE PAYMENT OPTIONS</p>
+                 <div class="input">
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1"> Credit Card</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<label for="vehicle2">PayPal</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3">Google Pay</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3">Gift Card</label><br>
+       <br>
+       
+       <input type="text" placeholder="Credit Card Number" size="50" required> <br><br>
+         <input type="text" placeholder="Expiary (MM/YY)" required><br><br> 
+         <input type="tezt" placeholder="Name on Card" size="50" required>    
+       </div>
+</div>
+<br>
+         <p class="red"> ANONYMITY</p>
+         <div class="form">
+            <input type="checkbox" id="xyz" name="xyz" value="xyz">
+            <label for="xyz">Make my donation Anonymous</label><br><br><br><br>
+
+            <button type="button" class="btn btn-primary btn-lg" onclick="alert('Completed Donation ✨')">Complete Donation Now</button>
+      
+            </form>
+         </div>
+     </div>
+
+    
+</body>
+
+</html>

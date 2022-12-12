@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+
+
+
+    <!--fontawesome-->
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"
+        integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
+        crossorigin="anonymous"></script>
+
+    <!--This is used for search icon. Instead putting icon manually it is loaded from fontawesome-->
+    <title>Responsive nav bar with Bootstrap 4</title>
+
+</head>
+    <style>
+        
+        .collapse{
+            margin-left: 40%;
+        }
+        .para p{
+            margin-left: 15%;
+            margin-right: 15%;
+            font-size: x-large;
+            /* margin-top: 3%; */
+            display:inline-block;
+        }
+        .para1{
+            margin-left: 15%;
+            margin-right: 15%;
+            font-size: x-large;
+            margin-top: 3%;
+            display:inline-block;
+        }
+        .about{
+            margin-top: 3%;
+            background-color:whitesmoke;
+            padding-left: 5%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+        }
+        .img{
+            margin-left: 30%;
+          
+        }
+        .black{
+            padding-left: 35%;
+            background-color: black;
+            color: white;
+            padding-top: 2%;
+            padding-bottom: 2%;
+        }
+        
+    </style>
+<body>
+
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-md navbar-light bg-dark fixed-top">
+
+        <a class="navbar-brand"></a>
+
+        <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+
+            <ul class="navbar-nav">
+
+                <li class="nav-item">
+
+                    <a class="nav-link text-light font-weight-bold px-3" href="home.html">HOME</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link text-light font-weight-bold px-3" href="about.html">ABOUT</a>
+
+                </li>
+                <li class="nav-item">
+
+                    <a class="nav-link text-light font-weight-bold px-3" href="celebrate.html">HOW TO CELEBRATE</a>
+
+                </li>
+                <li class="nav-item">
+
+                    <a class="nav-link text-light font-weight-bold px-3" href="event.html">EVENTS</a>
+
+                </li>
+                <li class="nav-item">
+
+                    <a class="nav-link text-light font-weight-bold px-3" href="donate.html">DONATE</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link text-light font-weight-bold px-3" href="blog.html">BLOG</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link text-light font-weight-bold px-3" href="contact.html">CONTACT</a>
+
+                </li>
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div  id="xxx" class="about">
+        <br>
+        <h2>about</h2>
+    </div><br><br>
+    <div  class="para">
+        
+        <p>National Child Day is celebrated annually to mark two historic events: the 1959 signing of the UN Declaration of the Rights of the Child and the the adoption of the UN Convention on the Rights of the Child in 1989 (UNCRC).</p>
+           </div>
+
+           <div class="para">
+            <p>The UNCRC is the most comprehensive treaty in support of children.  It was signed and ratified by more nations than any other human rights document in history, attesting to its global significance and the underlying universal values it upholds.</p>
+           </div>
+
+           <div class="para1">
+            <p>The founding principles of the Convention include:</p><br>
+
+              <p>Acting in the best interests of the child.</p>
+                <p>Genuinely considering the views of the child in all decision-making that affects them.</p>
+                <p>Ensuring children have the right to primary consideration in all economic, social, and political decisions, policies, programs, and expenditures that impact upon them.</p>
+           </div>
+          <div class="img">
+            <img src="about.jpg" class="img-fluid">
+          </div>
+    
+           <div class="para">
+            <br><br><br>
+             <p>There are many reasons to celebrate children, but most of all because children deserve to be recognized as important members of our community.</p><br><br>
+             <p> All children have the right to an adequate standard of living, health care and to play.</p>
+             <p>All children have the right to express their views about things that affect them and to participate in communities, programs and services.</p>
+               <p>All children have the right to be protected from abuse, neglect, exploitation and discrimination.</p>
+            </div>
+
+            <div class="black">
+                <p>Copyright © 2022 National Child Day – OnePress theme by FameThemes</p>
+            </div>
+
+            <scipt>
+                let ctitle = document.getElementById("xxx");
+                ctitle.style.color="red";
+            </scipt>
+</body>
+
+</html>
